@@ -1,0 +1,27 @@
+<resources>
+    <string name="app_name">ADSEP</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_guias">Guías</string>
+    <string name="title_activity_simulador">Simulador</string>
+    <string name="title_activity_scrolling">ScrollingActivity</string>
+
+    <string name="preunta1">Pregunta1.- Identifique las acciones docentes que promueven derechos infantiles, conforme a la Declaración de los derechos del niño de la Organización de las Naciones Unidas.\n\n
+        1.- Interviene en los procesos para que un alumno de corta edad que sufre maltrato físico o psicológico familiar, sea separado de su madre   para canalizarse a una institución segura. \n
+        2.-Interviene en los procesos para que el alumno que sufre maltrato físico o psicológico familiar, no sea separado de su madre debido a su corta edad. \n
+        3.- Ayuda a clarificar o corregir inconsistencias, errores u omisiones en los registros escolares del nombre de los alumnos. \n
+        4.- Evita manifestar expresiones afectivas hacia el alumno, para evitar que se interpreten como deseables, por lo que se restringe al trato cordial y respetuoso. \n
+    </string>
+
+
+    <string name="instrucciones">"Acontinuación se mostrarán las preguntas del simulador"
+                                " para contestarlas selecciona la opción correcta"
+                                " y presiona continuar.\n\n"
+
+                                " Pulsa comenzar para iniciar"</string>
+    <string name="title_activity_feedback">Feedback</string>
+    <string name="large_text">Tienes 10 preguntas contestadas correcta mente y 3 erroneas, acontinuación se te mostrarán las que están mal </string>
+</resources>

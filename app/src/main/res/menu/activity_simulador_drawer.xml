@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/sguia"
+            android:icon="@drawable/ic_menu_send"
+            android:title="Guías" />
+        <item
+            android:id="@+id/sotra"
+            android:icon="@drawable/ic_menu_send"
+            android:title="Otra Opción" />
+    </group>
+
+    <item android:title="Herramientas">
+        <menu>
+            <item
+                android:id="@+id/ssalir"
+                android:icon="@drawable/ic_menu_send"
+                android:title="Salir" />
+            <item
+                android:id="@+id/sadsep"
+                android:icon="@drawable/ic_menu_send"
+                android:title="ADSEP" />
+        </menu>
+    </item>
+
+</menu>

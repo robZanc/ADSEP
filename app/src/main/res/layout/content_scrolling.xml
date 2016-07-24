@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v4.widget.NestedScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context=".ScrollSimulador"
+    tools:showIn="@layout/activity_scrolling"
+    android:background="@drawable/side_nav_bar">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:weightSum="1">
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="@dimen/text_margin"
+        android:textSize="15dp"
+        android:textColor="#FFFFFF"
+        android:id="@+id/tvs" />
+
+        <RadioGroup
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/textView7"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_marginTop="58dp"
+            android:id="@+id/radioGroup">
+
+            <RadioButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/radioButton"
+                android:checked="false"
+                android:textSize="15dp"
+                android:textColor="#FFFFFF"
+                android:buttonTint="#000000"/>
+
+            <RadioButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/radioButton2"
+                android:checked="false"
+                android:textSize="15dp"
+                android:textColor="#FFFFFF"
+                android:buttonTint="#000000"/>
+
+            <RadioButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/radioButton3"
+                android:checked="false"
+                android:textSize="15dp"
+                android:textColor="#FFFFFF"
+                android:buttonTint="#000000"/>
+
+            <RadioButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/radioButton4"
+                android:checked="false"
+                android:textColor="#FFFFFF"
+                android:textSize="15dp"
+                android:buttonTint="#000000"/>
+
+
+        </RadioGroup>
+
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.71">
+            <ImageView
+                android:layout_width="102dp"
+                android:layout_height="102dp"
+                android:id="@+id/imageView4"
+                android:onClick="onClickBackPreg"
+                android:layout_gravity="left"
+                android:src="@mipmap/next12" />
+
+            <ImageView
+                android:layout_width="102dp"
+                android:layout_height="102dp"
+                android:id="@+id/imageView5"
+                android:onClick="onClickPreg"
+                android:layout_gravity="right"
+                android:src="@mipmap/next1"
+                android:layout_alignParentTop="true"
+                android:layout_alignParentRight="true"
+                android:layout_alignParentEnd="true" />
+        </RelativeLayout>
+
+
+    </LinearLayout>
+
+
+</android.support.v4.widget.NestedScrollView>

@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/gsimulador"
+            android:icon="@drawable/ic_menu_send"
+            android:title="Simulador" />
+        <item
+            android:id="@+id/gotra"
+            android:icon="@drawable/ic_menu_send"
+            android:title="Otra Opción" />
+    </group>
+
+    <item android:title="Herramientas">
+        <menu>
+            <item
+                android:id="@+id/gsalir"
+                android:icon="@drawable/ic_menu_send"
+                android:title="Salir" />
+            <item
+                android:id="@+id/gadsep"
+                android:icon="@drawable/ic_menu_send"
+                android:title="ADSEP" />
+        </menu>
+    </item>
+
+</menu>
